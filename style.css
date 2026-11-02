@@ -201,13 +201,13 @@ p {
     transition: 0.3s;
 }
 
-.signin-btn {
+.signin-btn,.signout-btn {
     padding: 10px 22px;
     border-radius: 30px;
 }
 
 .signin-btn:hover,
-.primary-btn:hover {
+.signout-btn:hover {
     background: var(--coral-dark);
     transform: translateY(-3px);
     box-shadow: 0 12px 25px #ff6b6140;
